@@ -1,0 +1,139 @@
+/* ===== Google Font ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Body ===== */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #eef2f7, #d9e2ec);
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* ===== Container ===== */
+body {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* ===== Header ===== */
+header {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+header a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Sections ===== */
+section {
+    background: white;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* ===== Section Titles ===== */
+h2 {
+    color: #0f172a;
+    margin-bottom: 10px;
+    border-left: 4px solid #38bdf8;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+/* ===== Lists ===== */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* ===== Strong Text ===== */
+strong {
+    color: #0f172a;
+}
+
+/* ===== Links ===== */
+a {
+    color: #0284c7;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #0369a1;
+}
+
+/* ===== Skills Highlight ===== */
+section ul li strong {
+    color: #1e293b;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
+
+/* ===== Print Friendly ===== */
+@media print {
+    body {
+        background: white;
+    }
+
+    section, header {
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+}
